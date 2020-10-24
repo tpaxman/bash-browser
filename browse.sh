@@ -2,23 +2,34 @@
 
 # look up website based on keyword and guess otherwise
 case $1 in
-    google)
+    google | google.com | google.ca)
         url="www.google.com"
         query="search?q="
         ;;
-    youtube | you)
+    whatsapp | google.com | google.ca)
+        url="web.whatsapp.com"
+        ;;
+    dyna | dynalist | dynalist.io)
+        url="www.dynalist.io"
+        query="#q="
+        ;;
+    youtube | you | youtube.com)
         url="www.youtube.com"
         query="results?search_query="
         ;;
-    reddit | red)
+    reddit | red | reddit.com)
         url="www.reddit.com"
         query="search?q="
         ;;
-    stackoverflow | stack | so)
+    gmail | gmail.com | mail.google.com | mail)
+        url="mail.google.com/mail/u/0"
+        query="#search/"
+        ;;
+    stackoverflow | stack | so | stackoverflow.com)
         url="www.stackoverflow.com"
         query="search?q="
         ;;
-    imdb)
+    imdb | imdb.com)
         url="www.imdb.com"
         query="find?q="
         ;;
