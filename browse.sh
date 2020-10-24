@@ -1,4 +1,4 @@
-    #!/bin/bash
+#!/bin/bash
 
 if [ "$#" -gt "0" ]; then
     # look up website based on keyword and guess otherwise
