@@ -36,14 +36,11 @@ Currently the following websites are supported (because they're the ones I use m
 - imdb
 
 
-Any other website can be accessed by typing its suffix:
-
-```
-./browse.sh nba.com
-```
+Any other website can be accessed by including at least its suffix (i.e. `nba.com`, `www.nba.com`, or `https://www.nba.com` will all work)
 
 You can also try to search a website by adding more arguments after the site name keyword
-which will by default try to append `/search?q=` to the url, which may not work. No guarantees.
+which will by default try to append `/search?q=` to the url, since this is pretty common syntax,
+but it is not guaranteed to work at all.
 
 ## Alias suggestions
 
