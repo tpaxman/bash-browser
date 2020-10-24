@@ -55,4 +55,9 @@ alias google='www google'
 alias gmail='www gmail'
 ```
 
+which allows you to run commands like:
 
+```
+google how old is alec baldwin
+gmail from:crazy_jj198982@hotmail.com
+```
