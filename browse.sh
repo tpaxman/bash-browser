@@ -2,11 +2,15 @@
 
 # look up website based on keyword and guess otherwise
 case $1 in
+    github | github.com | git)
+        url="www.github.com"
+        query="search?q="
+        ;;
     google | google.com | google.ca)
         url="www.google.com"
         query="search?q="
         ;;
-    whatsapp | google.com | google.ca)
+    whatsapp)
         url="web.whatsapp.com"
         ;;
     dyna | dynalist | dynalist.io)

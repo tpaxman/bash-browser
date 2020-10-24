@@ -24,6 +24,7 @@ are optional search terms:
 Currently the following websites are supported (because they're the ones I use most):
 
 - google
+- github
 - whatsapp
 - dynalist
 - youtube
