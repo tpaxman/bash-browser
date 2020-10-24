@@ -3,3 +3,4 @@ z_archive/
 *.pkl
 *.jpg
 output/
+debug.log
