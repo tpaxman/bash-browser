@@ -3,6 +3,10 @@
 if [ "$#" -gt "0" ]; then
     # look up website based on keyword and guess otherwise
     case $1 in
+        spotify)
+            url="open.spotify.com"
+            query="search/"
+            ;;
         github | github.com | git)
             url="www.github.com"
             query="search?q="
