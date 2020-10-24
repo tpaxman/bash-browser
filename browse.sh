@@ -40,8 +40,9 @@ esac
 
 # assume all the other arguments are search terms to look up on the site
 if [ "$#" -gt "1" ]; then
-	for term in ${@: 2}; do
-	     searchterm="$searchterm%20$term"
+    searchterm=$2
+	for term in ${@: 3}; do
+	     searchterm+="%20$term"
 	done
 	url+="/$query$searchterm"
 fi
