@@ -21,6 +21,8 @@ are optional search terms:
 ./browsh.sh youtube we are the world   # opens up a search result on youtube.com
 ```
 
+## Compatible websites:
+
 Currently the following websites are supported (because they're the ones I use most):
 
 - google
@@ -42,4 +44,15 @@ Any other website can be accessed by typing its suffix:
 
 You can also try to search a website by adding more arguments after the site name keyword
 which will by default try to append `/search?q=` to the url, which may not work. No guarantees.
+
+## Alias suggestions
+
+In your `~/.bashrc` file, you can add the following to make it easier to run the most common commands, adapted as needed:
+
+```
+alias www='/path/to/this/repo/browse.sh'
+alias google='www google'
+alias gmail='www gmail'
+```
+
 
